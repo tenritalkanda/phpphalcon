@@ -1,7 +1,55 @@
 # phpphalcon
 Framework Phalcon PHP
 
-Worked nginx default.conf
+Installation On Windows :
+https://phalconphp.com/en/download/windows
+
+Installation On Ubuntu :
+```bash
+# Stable releases
+curl -s https://packagecloud.io/install/repositories/phalcon/stable/script.deb.sh | sudo bash
+
+# Nightly releases
+curl -s https://packagecloud.io/install/repositories/phalcon/nightly/script.deb.sh | sudo bash
+
+This only needs to be done only once, unless your distribution changes or you want to switch from stable to nightly builds.
+```
+
+To install Phalcon:
+```bash
+sudo apt-get install php5-phalcon
+
+# or for PHP 7
+sudo apt-get install php7.0-phalcon
+```
+
+Creating the extension:
+```bash
+# i clone this to /var/www/html
+git clone git://github.com/phalcon/cphalcon.git
+cd cphalcon/build
+sudo ./install
+```
+
+Add extension to your PHP configuration :
+```bash
+# Suse: Add a file called phalcon.ini in /etc/php5/conf.d/ with this content:
+extension=phalcon.so
+
+# CentOS/RedHat/Fedora: Add a file called phalcon.ini in /etc/php.d/ with this content:
+extension=phalcon.so
+
+# Ubuntu/Debian with apache2: Add a file called 30-phalcon.ini in /etc/php5/apache2/conf.d/ with this content:
+extension=phalcon.so
+
+# Ubuntu/Debian with php5-fpm: Add a file called 30-phalcon.ini in /etc/php5/fpm/conf.d/ with this content:
+extension=phalcon.so
+
+# Ubuntu/Debian with php5-cli: Add a file called 30-phalcon.ini in /etc/php5/cli/conf.d/ with this content:
+extension=phalcon.so
+```
+
+Worked nginx /etc/nginx/sites-available/default.conf
 ```bash
 server {
     # Port 80 will require Nginx to be started with root permissions
@@ -77,3 +125,7 @@ server {
     }
 }
 ```
+Restart webserver
+systemctl restart nginx
+or
+service nginx reload
