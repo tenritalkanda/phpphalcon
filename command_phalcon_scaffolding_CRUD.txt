@@ -1,0 +1,3 @@
+#Generate controller, model, layout/users.volt, users/index.volt, users/edit.volt, users/new.volt, users/search.volt
+CLI :
+phalcon scaffold --template-engine=volt --table-name [namatable]
