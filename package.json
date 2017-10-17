@@ -1,0 +1,22 @@
+{
+  "name": "phpphalcon",
+  "version": "1.0.0",
+  "description": "phalcon_starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenritalkanda/phpphalcon.git"
+  },
+  "author": "Tenri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tenritalkanda/phpphalcon/issues"
+  },
+  "homepage": "https://github.com/tenritalkanda/phpphalcon#readme",
+  "devDependencies": {
+    "webpack": "^3.8.0"
+  }
+}
