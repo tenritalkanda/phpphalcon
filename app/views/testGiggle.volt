@@ -10,7 +10,7 @@
         <link rel="shortcut icon" href="assets/images/favicon.ico">
 
         <!-- App title -->
-        <title>Uplon - Responsive Admin Dashboard Template</title>
+        <title>Responsive Admin Dashboard Template</title>
 
         <!--Morris Chart CSS -->
 {#		<link rel="stylesheet" href="assets/plugins/morris/morris.css">
