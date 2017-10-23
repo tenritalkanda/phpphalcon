@@ -26,7 +26,7 @@
 </div>
 
 <div class="form-group">
-    <label for="fieldEmail" class="col-sm-2 control-label">Email</label>
+    <label for="fieldEmail" class="col-sm-2 test_git control-label">Email</label>
     <div class="col-sm-10">
         {{ text_field("email", "size" : 30, "class" : "form-control", "id" : "fieldEmail") }}
     </div>
@@ -47,7 +47,7 @@
 </div>
 
 <div class="form-group">
-    <label for="fieldActive" class="col-sm-2 control-label">Active</label>
+    <label for="fieldActive" class="col-sm-2 test_git2 control-label">Active</label>
     <div class="col-sm-10">
         {{ text_field("active", "type" : "numeric", "class" : "form-control", "id" : "fieldActive") }}
     </div>
