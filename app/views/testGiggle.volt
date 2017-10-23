@@ -57,6 +57,7 @@
                         <li class="list-inline-item dropdown notification-list">
                             <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown" href="#" role="button"
                                aria-haspopup="false" aria-expanded="false">
+                               
                                 <i class="zmdi zmdi-notifications-none noti-icon"></i>
                                 <span class="noti-icon-badge"></span>
                             </a>
@@ -297,7 +298,7 @@
                                 <a href="javascript:void(0);" class="waves-effect"><i class="zmdi zmdi-format-list-bulleted"></i> <span> Tables </span> <span class="menu-arrow"></span></a>
                                 <ul class="list-unstyled">
                                 	<li><a href="tables-basic.html">Basic Tables</a></li>
-                                    <li><a href="tables-datatable.html">Data Table</a></li>
+                                    <li><a href="tables-datatable.html">DataTable</a></li>
                                     <li><a href="tables-responsive.html">Responsive Table</a></li>
                                     <li><a href="tables-tablesaw.html">Tablesaw</a></li>
                                 </ul>
@@ -382,7 +383,7 @@
                                     <h4 class="page-title float-left">Dashboard</h4>
 
                                     <ol class="breadcrumb float-right">
-                                        <li class="breadcrumb-item"><a href="#">Uplon</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Upl</a></li>
                                         <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
                                         <li class="breadcrumb-item active">Dashboard</li>
                                     </ol>
@@ -515,7 +516,7 @@
                                                 <a href="#">
                                                     <div class="inbox-item">
                                                         <div class="inbox-item-img"><img src="assets/images/users/avatar-2.jpg" class="rounded-circle" alt=""></div>
-                                                        <p class="inbox-item-author">Tomaslau</p>
+                                                        <p class="inbox-item-author">Tomas</p>
                                                         <p class="inbox-item-text">I've finished it! See you so...</p>
                                                         <p class="inbox-item-date">13:34 PM</p>
                                                     </div>
@@ -747,7 +748,7 @@
                                     <div class="item-info">
                                         <small class="text-muted">5 hours ago</small>
                                         <p><a href="" class="text-info">Jessi</a> attended a meeting with<a href="#" class="text-success">John Doe</a>.</p>
-                                        <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet tellus ut tincidunt euismod. "</em></p>
+                                        <p><em>"Lorem"</em></p>
                                     </div>
                                 </div>
                             </div>
