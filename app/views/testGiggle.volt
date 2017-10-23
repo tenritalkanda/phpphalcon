@@ -65,6 +65,7 @@
                                 <!-- item-->
                                 <div class="dropdown-item noti-title">
                                     <h5><small><span class="label label-danger pull-xs-right">7</span>Notification</small></h5>
+                                    <div style="display: none">test</div>
                                 </div>
 
                                 <!-- item-->
@@ -160,6 +161,7 @@
                                aria-haspopup="false" aria-expanded="false">
                                 <img src="assets/images/users/avatar-1.jpg" alt="user" class="rounded-circle">
                             </a>
+                            <div style="display: none">test</div>
                             <div class="dropdown-menu dropdown-menu-right profile-dropdown " aria-labelledby="Preview">
                                 <!-- item-->
                                 <div class="dropdown-item noti-title">
