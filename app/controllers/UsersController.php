@@ -13,8 +13,9 @@ class UsersController extends ControllerBase
     public function indexAction()
     {
         $this->persistent->parameters = null;
+        // testing encryption
         $key = '12312321';
-        $id = '50';
+        $id = '52';
         $crypt = new Crypt();
         $encrypted = $crypt->encrypt($id, $key);
         print_r($encrypted);
