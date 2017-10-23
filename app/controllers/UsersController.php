@@ -2,6 +2,7 @@
  
 use Phalcon\Mvc\Model\Criteria;
 use Phalcon\Paginator\Adapter\Model as Paginator;
+use Phalcon\Crypt;
 
 
 class UsersController extends ControllerBase
@@ -12,6 +13,13 @@ class UsersController extends ControllerBase
     public function indexAction()
     {
         $this->persistent->parameters = null;
+        $key = '12312321';
+        $id = '50';
+        $crypt = new Crypt();
+        $encrypted = $crypt->encrypt($id, $key);
+        print_r($encrypted);
+        echo '<br>';
+        print_r($crypt->decrypt($encrypted, $key)); exit;
     }
 
     /**
@@ -59,7 +67,7 @@ class UsersController extends ControllerBase
      */
     public function newAction()
     {
-
+        
     }
 
     /**
