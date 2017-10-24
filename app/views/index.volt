@@ -16,7 +16,7 @@
     <body>
         <div class="container">
             {{ content() }}
-            <span> </span>
+            <span> Test </span>
         </div>
     </body>
 </html>

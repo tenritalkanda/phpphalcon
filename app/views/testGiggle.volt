@@ -8,7 +8,7 @@
 
         <!-- App Favicon -->
         <link rel="shortcut icon" href="assets/images/favicon.ico">
-    p
+
         <!-- App title -->
         <title>Responsive Admin Dashboard Templates</title>
 
@@ -48,7 +48,7 @@
                 <div class="topbar-left">
                     <a href="index.html" class="logo">
                         <i class="zmdi zmdi-group-work icon-c-logo"></i>
-                        <span>Uplon</span></a>
+                        <span>Upln</span></a>
                 </div>
 
                 <nav class="navbar-custom">
@@ -87,7 +87,7 @@
                                 </a>
 
                                 <!-- All-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item notify-all">
+                                <a href="javascript:void(0);" class="dropdown-item notify-item notify-all test2">
                                     View All
                                 </a>
 
