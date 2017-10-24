@@ -8,9 +8,9 @@
 
         <!-- App Favicon -->
         <link rel="shortcut icon" href="assets/images/favicon.ico">
-
+    p
         <!-- App title -->
-        <title>Responsive Admin Dashboard Template</title>
+        <title>Responsive Admin Dashboard Templates</title>
 
         <!--Morris Chart CSS -->
 {#		<link rel="stylesheet" href="assets/plugins/morris/morris.css">
